@@ -176,7 +176,7 @@ APACHE v2.0
 
 Optionally you can also add the following directives:
 
-    DOSEmailNotify	you@yourdomain.com
+    DOSEmailNotify	nobody@example.com
     DOSSystemCommand	"su - someuser -c '/sbin/... %s ...'"
     DOSLogDir		"/var/lock/mod_evasive"
 
@@ -318,7 +318,7 @@ then set this in your httpd.conf.
 
 WHITELISTING IP ADDRESSES
 
-IP addresses of trusted clients can be whitelisted to insure they are never 
+IP addresses of trusted clients can be whitelisted to ensure they are never 
 denied.  The purpose of whitelisting is to protect software, scripts, local 
 searchbots, or other automated tools from being denied for requesting large 
 amounts of data from the server.  Whitelisting should *not* be used to add 
